@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jungle King Tiger</title>
+    <link rel="stylesheet" href={% static "css/mystyle.css" %}/>
 </head>
 <body>
-    <h1>Hello this is index.html!</h1>
-    {{ insert_me }}
+    <h1>This is pictire of king himself!</h1>
+    <img src="{% static "images/tiger.jpg" %}" alt="Uh Oh, Image not found!">
 </body>
 </html>
