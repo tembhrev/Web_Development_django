@@ -1,0 +1,34 @@
+.firstDiv {
+    color: blue;
+}
+
+.secondDiv {
+    background-color: gray;
+}
+
+#singledout {
+    color: red;
+    text-decoration: underline;
+}
+
+/*Use an asterisk to select all elements*/
+* {
+    color: green;
+}
+
+/*Adjacent sibling: Elements that are next to each other*/
+h3 + ul {
+    border: 3px dotted purple;
+}
+
+/*Descendants*/
+li a {
+    color: black;
+}
+
+
+/*Attributes*/
+li a[href="www.python.org"] {
+    color: red;
+    border: 5px solid orange;
+}

@@ -1,0 +1,21 @@
+body{
+    /*background: gray;*/
+    background: gray;
+    background-repeat: no-repeat;
+}
+
+div {
+    background: blue;
+    border: orange;
+    border-width: thick;
+    border-style: dotted;
+}
+
+p {
+    color: yellow;
+}
+
+span {
+    background: red;
+    color: black;
+}
