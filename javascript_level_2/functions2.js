@@ -65,5 +65,7 @@ function makeBricks(small, big, goal){
 }
 
 console.log(makeBricks(3, 1, 8))
+
+
 console.log(makeBricks(3, 1, 9))
 console.log(makeBricks(3, 2, 10))

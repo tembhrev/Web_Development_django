@@ -59,4 +59,4 @@ $('h2').removeClass("turnRed");
 
 //Toggle the Class on and off
 $("h3").addClass("turnBlue");
-$("h3").toggleClass("turnBlue");
+
