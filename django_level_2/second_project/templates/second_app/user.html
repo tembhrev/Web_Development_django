@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+    <head>
+        <!-- The head contains Meta-data -->
+        <!-- Use html+Tab to get the boilerplate -->
+        <!-- Use cmd+/ to get the htnl comment line -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Django Level Two</title>
+    </head>
+    <body>
+
+        <h1>Here are your users for SecondApp</h1>
+        {% if users %}
+
+        <ol>
+            {% for person in users %}
+            <li>User Info</l1>
+                <ul>
+                    <li>First Name: {{ person.first_name }}</li>
+                    <li>Last Name: {{ person.last_name }}</li>
+                    <li>Email: {{ person.email }}</li>
+                </ul>
+            {% endfor %}
+        </ol>
+        {% endif %}
+    </body>
+</html>
